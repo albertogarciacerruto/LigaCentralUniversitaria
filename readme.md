@@ -1,6 +1,6 @@
-# Liga Central Universitaria - LCU
+# Gestor de Noticias, Equipos y Partidos - Liga Central Universitaria - LCU
 
-_Proyecto que permite gestionar las directivas deportivas bajo la organizacion Liga Central Universitaria de Venezuela_
+_Proyecto que permite gesionar Equipos universitarios, partidos y noticias de la organizacion Liga Central Universitaria_
 
 ## Comenzando 🚀
 
@@ -27,16 +27,19 @@ DB_USERNAME='COLOCA_TU_USER_NAME'
 DB_PASSWORD='COLOCA_TU_PASSWORD'
 ```
 
-_Cambiar la configuracion de acceso a la cuenta de correo con acceso de aplicaciones de tercero y permitir el envio de correos electronicos._
+_Cambiar la configuracion de acceso a la cuenta de correo con acceso de aplicaciones de tercero y permitir el envio de correos electronicos:_
+
 ```
 MAIL_USERNAME=EMAIL_DEVELOP
 MAIL_PASSWORD=PASSWORD_DEVELOP
+```
 
 _Luego aplica el comando para porcesar las migraciones_
 
 ```
 php artisan migrate
 ```
+
 _Levanta la aplicacion en tu servidor local o puedes ejecutarla tambien con el comando:_
 
 ```
