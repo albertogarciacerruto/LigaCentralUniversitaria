@@ -1,0 +1,22 @@
+.btn-success {
+    color: #fff !important;
+    background-color: #050562 !important;
+    border-color: #050562 !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #050562 !important;
+    border-color: #050562 !important;
+}
+
+.btn-danger {
+    color: #fff !important;
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+.letter {
+    color: #050562 !important;
+    border-color: #050562 !important;
+}
